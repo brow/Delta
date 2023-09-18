@@ -1504,6 +1504,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.4;
+                OTHER_LDFLAGS = (
+                    "-ld64",
+                    "$(inherited)",
+                );
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rileytestut.Delta.FBVC4BC4VT;
 				PROVISIONING_PROFILE = "";
@@ -1537,6 +1541,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.4;
+                OTHER_LDFLAGS = (
+                    "-ld64",
+                    "$(inherited)",
+                );
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DIMPACTOR";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rileytestut.Delta.FBVC4BC4VT;
 				PROVISIONING_PROFILE = "";
